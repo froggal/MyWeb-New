@@ -1,27 +1,21 @@
 @import url(navbar.css);
+@import url(header.css);
+@import url(skils.css);
 body {
     color: white;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-.header {
     font-family: 'Jua', sans-serif;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0px 50px 0px;
-    background-color: #11C19B;
 }
 
-#name {
-    font-size: 500%;
+.section-title {
+    font-size: 400%;
 }
-#profileimg {
-    max-width: 18%;
-    max-height: 18%;
+.section-subtitle {
+    margin-top: 5%;
+    font-size: 250%;
+    text-align: center;
 }
-#description {
-    margin-top: 5px;
+.section-content {
+    margin-top: 5%;
+    text-align: center;
     font-size: 150%;
 }
